@@ -9,3 +9,14 @@ it helps to:
 1. increase readability
 2. less code
 3. can add middlewares
+
+
+
+localhost : when we dont have server on internet but we have to host our server locally .
+e.g https://localhost:3000
+
+port is like a door to enter our local system server
+3000 is port here
+
+
+
