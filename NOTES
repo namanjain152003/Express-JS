@@ -1,0 +1,11 @@
+EXPRESS JS:
+
+express js is a javascript framework that is used to create backend.
+
+node js is the run time environment which helps to run javascript on any computer
+
+node js + express = backend
+it helps to:
+1. increase readability
+2. less code
+3. can add middlewares
