@@ -18,5 +18,16 @@ e.g https://localhost:3000
 port is like a door to enter our local system server
 3000 is port here
 
+HTTP request
+
+hypertext transfer protocol
+
+
+Request Vocab:
+Get : request resource from server.
+Post : Sending the resource to the server.
+Put : Replace resource
+Patch : patch up a resource
+Delete : delete the resource
 
 
