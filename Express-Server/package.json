@@ -7,9 +7,11 @@
   "description": "learning",
   "main": "index.js",
   "devDependencies": {},
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "naman jain",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": []
 }
