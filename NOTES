@@ -19,6 +19,8 @@ express js is very popular now
 localhost : when we dont have server on internet but we have to host our server locally . making our own computer as the server of our backend
 e.g https://localhost:3000
 
+
+
 port is like a door to enter our local system server
 3000 is port here
 
