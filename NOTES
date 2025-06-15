@@ -51,6 +51,9 @@ Delete : delete the resource
 we can install nodemon which help in detect changes in the server and apply it without clsoing and restarting it
 npm i -g nodemon (-g because we download it globally)
 
+Express is used so that when a client performs some action, the client gets a proper result or message in return.
+Correct! Express handles requests from the client and sends back appropriate responses.
+
 
 
 
