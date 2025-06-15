@@ -12,8 +12,12 @@ it helps to:
 
 express js is very popular now
 
-
-
+STEPS TO CREATE EXPRESS SERVER
+1. open directory in which u have to work.
+2. create index.js in that directory
+3. open terminal and create package.json (npm init -y)
+4. install express npm (npm i express)
+5. now u can work
 
 
 localhost : when we dont have server on internet but we have to host our server locally . making our own computer as the server of our backend
@@ -31,20 +35,21 @@ netsat-ano|findstr"LISTENING" is used to check which ports in the system are lis
 " netstat -tulnp | grep LISTEN " is used to check on github 
 
 
- 
-
-
-HTTP request
+ HTTP request
 
 hypertext transfer protocol
+it is used to make connection between client and server
 
 
 Request Vocab:
 Get : request resource from server.
 Post : Sending the resource to the server.
-Put : Replace resource
-Patch : patch up a resource
+Put : Replace resource (it completely replace the resource)
+Patch : patch up a resource(it only corrects the error part of the resource)
 Delete : delete the resource
+
+we can install nodemon which help in detect changes in the server and apply it without clsoing and restarting it
+npm i -g nodemon (-g because we download it globally)
 
 
 
