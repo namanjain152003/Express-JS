@@ -55,6 +55,25 @@ Express is used so that when a client performs some action, the client gets a pr
 Correct! Express handles requests from the client and sends back appropriate responses.
 
 
+server send http response status codes:
+it has 5 classes:
+informational responses (100-199)
+successful responses (200-299)
+redirection messages(300-399)
+client error responses(400-499)
+server error responses(500 - 599)
+
+cheat code to remember:
+1** hold on
+2** here you go
+3** Go Away
+4** you fucked up
+5** i fucked up
+
+we can use postman to see wheather we are getting the right status code for our requets
+(i used vscode to test postman beacuse using in github codespace is bit tricky)
+
+
 
 
 
