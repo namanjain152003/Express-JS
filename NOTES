@@ -81,7 +81,7 @@ public folder is where static files are stored and which are not need to change.
 
 res.sendFile is used to send the files from server to client.
 
-body parser is the example of middleware in express js
+body parser is the example of middleware in express js, which helps to read the body data in the express because express cant read the body directly.
 
 
 
