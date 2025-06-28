@@ -75,10 +75,13 @@ we can use postman to see wheather we are getting the right status code for our 
 
 
 middlewares:-
+Middleware is software that acts as a bridge, enabling communication and data management between different applications, operating systems, and databases. helps in pre processing before getting the requests into the routs.
 
+public folder is where static files are stored and which are not need to change.
 
+res.sendFile is used to send the files from server to client.
 
-
+body parser is the example of middleware in express js
 
 
 
