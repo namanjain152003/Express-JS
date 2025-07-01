@@ -84,6 +84,26 @@ res.sendFile is used to send the files from server to client.
 body parser is the example of middleware in express js, which helps to read the body data in the express because express cant read the body directly.
 
 
+Basic Structure of a Custom Middleware
+
+function middlewareName(req, res, next) {
+  // 1. You can read or modify the req/res objects
+  // 2. Do something (e.g., logging, auth check, etc.)
+  // 3. Call next() to move to the next middleware/route
+}
+
+🔄 Middleware Flow
+When a request comes in:
+
+Express checks any middleware registered with app.use() or specific routes.
+
+It runs each middleware in order.
+
+If the middleware calls next(), the request moves to the next one.
+
+If next() is not called, the request hangs.
+
+
 
 
 
